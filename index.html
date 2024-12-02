@@ -21,6 +21,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'button-color': 'rgba(171, 239, 95, 0.5)',
                     }
                 }
             }
@@ -71,12 +72,12 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="flex items-center space-x-1 bg-[#ABEF5F] p-2 rounded-2xl">
+                        <button class="flex items-center space-x-1 bg-[#ABEF5F] px-3 py-2 rounded-3xl">
                             <h3 class="font-bold">Book Consult</h3>
                             <a class="">
                                 <i class="fa-solid fa-circle-arrow-right fa-lg -rotate-45 text-black"></i>
                             </a>
-                        </div>
+                        </button>
                     </div>
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-circle lg:hidden bg-white">
@@ -95,6 +96,30 @@
             </div>
         </nav>
 
+        <!-- banner section -->
+        <section class="lg:w-9/12 mx-auto">
+            <div class="hero min-h-screen">
+                <div class="hero-content text-center flex flex-col">
+                    <div>
+                        <img src="assets/banner.png" alt="house">
+                    </div>
+                    <div>
+                        <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                        <p class="p-6">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal accents, and large windows that flood the space with
+                            natural light.
+                        </p>
+                        <button
+                            class="flex justify-self-center items-center space-x-1 bg-button-color px-3 py-2 rounded-3xl">
+                            <h3 class="font-bold">View Details</h3>
+                            <a href="#" class="btn btn-circle btn-sm bg-[#ABEF5F]">
+                                <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <body>
